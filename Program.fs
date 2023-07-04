@@ -1,7 +1,5 @@
 ﻿open EdgeDB
 
-let client = EdgeDBClient()
-
 let config =
     EdgeDBClientPoolConfig(SchemaNamingStrategy = INamingStrategy.DefaultNamingStrategy, ExplicitObjectIds = false)
 
